@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://cdn.wildrocket.io/media/JWKzdonTttBD2UGQ0R28nLSLX4I0pYdADrV1FnU6.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Card Styling */
+.card {
+    max-width: 550px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #218838);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #ffc107, #e0a800);
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+}
+
+/* Task List */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+}
+
+.list-group-item:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Completed Task */
+.task-text.text-decoration-line-through {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Motivational Quote */
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    padding: 12px;
+    border-left: 4px solid #007bff;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+/* Quote Button */
+#refreshQuote {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 20px;
+}
+
+/* Clear All Tasks Button */
+#clearAllTasks {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
