@@ -49,7 +49,7 @@ Smart-Task-Manager/
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/smart-task-manager.git
+git clone https://github.com/Srivishnuboddu/ToDo-List-using-JS
 cd smart-task-manager
 
 2️⃣ Open the App
