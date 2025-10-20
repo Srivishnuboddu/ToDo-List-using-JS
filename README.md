@@ -95,6 +95,8 @@ Click the “Refresh Quote” button to load a new one anytime.
 
 [Add Task] [Clear All]
 
+YOUTUBE DEMO VIDEO : https://youtu.be/-CJ9_4wNsUw?si=LAkgfR0Et3LssJcd
+
 🔗 API Reference
 
 Motivational Quotes API:
